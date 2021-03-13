@@ -1,5 +1,5 @@
 import { Box, Image, Stack, Text } from "@chakra-ui/react"
-import { memo, ReactNode, VFC } from "react"
+import { memo, VFC } from "react"
 
 type Props = {
   id: number
@@ -33,7 +33,7 @@ export const UserCard: VFC<Props> = memo((props) => {
         <Text fontSize="lg" fontWeight="bold">
           {userName}
         </Text>
-        <Text fontsize="sm" color="gray">
+        <Text fontSize="sm" color="gray">
           {fullName}
         </Text>
       </Stack>
